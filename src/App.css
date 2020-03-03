@@ -1,38 +1,124 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    text-align: center;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+    background-color: transparent;
+    border-radius: 7px;
+    border: 1px solid #74B0EC;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 11px 27px;
+    text-decoration: none;
+    margin-top: 20px;
+    ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover {
+    background-color: transparent;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.todo {
+    background-color: #4696E5;
+    padding: 50px 100px 50px 50px;
+    margin: 50px 150px 50px 50px;
+    text-align: right;
+}
+
+.txt {
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    color: #838383;
+}
+
+.new-todo {
+    text-align: left;
+}
+
+.work {
+    background-color: #FBFBFB;
+    padding: 50px 100px 80px 50px;
+    margin: 50px 150px 80px 50px;
+}
+
+.combtn {
+    background-color: transparent;
+    border: 1px solid #b2b8ad;
+    display: inline-block;
+    cursor: pointer;
+    color: #757d6f;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 11px 10px;
+    text-decoration: none;
+    margin: 2px;
+}
+
+.combtn:hover {
+    background-color: transparent;
+}
+
+.combtn:active {
+    position: relative;
+    top: 1px;
+}
+
+.item {
+    display: flex;
+}
+
+.items {
+    color: #838383;
+    padding-left: 40px;
+}
+
+.form-control {
+    height: 40px;
+    width: 900px;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+.main {
+    background-color: #FAFAFA;
+}
+
+.footer {
+    margin: 50px 70px 50px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 50px;
+}
+
+.text {
+    text-decoration: line-through;
+}
+
+.icon {
+    padding-left: 50px;
+    margin: 50px;
 }
